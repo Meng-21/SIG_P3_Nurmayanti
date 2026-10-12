@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kota Jakarta</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>DKI Jakarta</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.7290416,-6.1204943,0
+              106.7267527,-6.1643011,0
+              106.7319025,-6.1904697,0
+              106.7559351,-6.2388213,0
+              106.7690959,-6.2712428,0
+              106.7839732,-6.2900122,0
+              106.8240275,-6.2968373,0
+              106.8577875,-6.3070747,0
+              106.8841175,-6.3016541,0
+              106.9201579,-6.3110559,0
+              106.9499125,-6.3030935,0
+              106.9607844,-6.2735179,0
+              106.9516291,-6.2274448,0
+              106.9487681,-6.2046912,0
+              106.9413294,-6.1876254,0
+              106.9390406,-6.1415448,0
+              106.9201579,-6.1079774,0
+              106.8921198,-6.1068395,0
+              106.8915476,-6.1295973,0
+              106.8600764,-6.1199254,0
+              106.8320383,-6.1313041,0
+              106.7937006,-6.132442,0
+              106.7702402,-6.1210633,0
+              106.7290416,-6.1204943,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
